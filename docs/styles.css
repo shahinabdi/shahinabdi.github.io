@@ -84,12 +84,22 @@ body {
     display: block;
 }
 
+.section-title {
+    width: 75%;
+    background: #333;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
 .card {
     background: #333;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     transition: transform 0.3s;
+    margin-top: 20px;
 }
 
 .card:hover {
