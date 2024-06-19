@@ -19,6 +19,8 @@ body {
     background: #2c2c2e;
     padding: 20px;
     box-sizing: border-box;
+    height: 100vh;
+    overflow-y: auto;
 }
 
 .sidebar .profile {
@@ -33,6 +35,24 @@ body {
 
 .sidebar .profile h2 {
     margin: 10px 0 5px;
+}
+
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 20px 0;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills, .coding, .other-skills {
+    margin-bottom: 20px;
+}
+
+.skills h3, .coding h3, .other-skills h3 {
+    margin-bottom: 10px;
 }
 
 .sidebar .nav ul {
@@ -74,4 +94,25 @@ body {
 
 .card:hover {
     transform: scale(1.05);
+}
+
+.other-skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.other-skills p {
+    margin: 0;
+    padding: 5px 10px;
+    background: #1c1c1e;
+    border-radius: 5px;
+    border: 1px solid #000;
+    transition: transform 0.3s;
+}
+
+.other-skills p:hover {
+    transform: scale(1.1);
 }
