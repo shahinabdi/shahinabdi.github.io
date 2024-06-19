@@ -3,45 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shahin ABDI | Portfolio</title>
+    <title>Professional Profile</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 <body>
     <div class="container">
-        <header>
+        <aside class="sidebar">
             <div class="profile">
-                <img src="profile.jpg" alt="Shahin ABDI" class="profile-img">
-                <h1>Shahin ABDI</h1>
-                <p>Data Scientist | Master's Student | Mobile Developer & Instructor</p>
-                <div class="contact-info">
-                    <a href="mailto:contact@shahinabdi.fr"><i class="fas fa-envelope"></i></a>
-                    <a href="https://github.com/shahinabdi" target="_blank"><i class="fab fa-github"></i></a>
-                    <a href="https://www.linkedin.com/in/shahinabdi/" target="_blank"><i class="fab fa-linkedin"></i></a>
-                    <!-- Add more social links if needed -->
-                </div>
+                <img src="profile.jpg" alt="Shahin ABDI">
+                <h2>Shahin ABDI</h2>
+                <p>Data Engineer | Python Developer</p>
+                <p>Paris, France</p>
+                <p>contact@shahinabdi.fr</p>
             </div>
-        </header>
-
-        <main>
-            <section id="work-experience">
-                <h2>Work Experience</h2>
-                <!-- Add work experience here -->
+            <nav class="nav">
+                <ul>
+                    <li onclick="showSection('experience')">Professional Experiences</li>
+                    <li onclick="showSection('education')">Education</li>
+                    <li onclick="showSection('projects')">Projects</li>
+                    <li onclick="showSection('publications')">Publications</li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="content">
+            <section id="experience" class="section">
+                <div class="card">
+                    <h3>Python Developer</h3>
+                    <p><strong>Institut d'Astrophysique Spatiale</strong> | July 2023 - Present</p>
+                    <p>Optimized Python code for the PLATO mission, significantly improving performance.</p>
+                    <p>Applied TDD development practices, ensuring high code quality and early bug detection.</p>
+                    <p>Increased code efficiency, reducing processing times and improving responsiveness.</p>
+                    <p>Participated in code reviews, providing solutions for continuous improvement.</p>
+                    <p>Collaborated with the team to integrate robust and reliable features.</p>
+                </div>
+                <div class="card">
+                    <h3>Python Developer</h3>
+                    <p><strong>Institut d'Astrophysique Spatiale</strong> | August 2021 - June 2023</p>
+                    <p>Developed a database management platform using Django.</p>
+                    <p>Designed and created user interfaces with PyShiny.</p>
+                    <p>Applied TDD development practices, ensuring high code quality and early bug detection.</p>
+                </div>
+                <div class="card">
+                    <h3>Master's Thesis Internship</h3>
+                    <p><strong>LATMOS-CNRS, Paris</strong> | March 2020 - September 2020</p>
+                    <p>Built high-performance Python programs for complex atmospheric calculations (30% faster processing).</p>
+                    <p>Managed & analyzed atmospheric data (MongoDB, R), simulating large-scale Earth spectra for comprehensive studies.</p>
+                    <p>Supported scientists with Python & data analysis, contributing to successful research projects.</p>
+                </div>
+                <div class="card">
+                    <h3>Master's Research Experience</h3>
+                    <p><strong>IAS-IAP, Orsay</strong> | April 2018 (3 Months) - April 2019 (3 Months)</p>
+                    <p>Developed efficient Python & IDL solutions for solar & image analysis, improving accuracy and processing speed (collaboration).</p>
+                    <p>Results:
+                        <ul>
+                            <li>New deep coronal spectra from the 2017 total solar eclipse, A&A, 632 (2019) A86</li>
+                            <li>Pointing the NTT at the Sun: Studying the Solar Corona During the Total Eclipse, 2019, The Messenger, 177, 54-55</li>
+                        </ul>
+                    </p>
+                </div>
             </section>
-            <section id="education">
-                <h2>Education</h2>
-                <!-- Add education here -->
+            <section id="education" class="section hidden">
+                <!-- Add education cards here -->
             </section>
-            <section id="skills">
-                <h2>Skills</h2>
-                <!-- Add skills here -->
+            <section id="projects" class="section hidden">
+                <!-- Add project cards here -->
             </section>
-            <section id="projects">
-                <h2>Projects</h2>
-                <!-- Add projects here -->
+            <section id="publications" class="section hidden">
+                <!-- Add publication cards here -->
             </section>
         </main>
     </div>
+    <script src="scripts.js"></script>
 </body>
 </html>
