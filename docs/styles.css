@@ -15,7 +15,7 @@ body {
 }
 
 .sidebar {
-    width: 250px;
+    width: 375px; /* Increased width to 1.5x of 250px */
     background: #2c2c2e;
     padding: 20px;
     box-sizing: border-box;
@@ -78,10 +78,13 @@ body {
 
 .section {
     display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
 }
 
 .section.active {
     display: block;
+    opacity: 1;
 }
 
 .section-title {
@@ -106,12 +109,52 @@ body {
     transform: scale(1.05);
 }
 
-.other-skills {
+.skills-container, .coding-container {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    padding: 10px;
-    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skill p {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.circle {
+    position: relative;
+    width: 75px;
+    height: 75px;
+}
+
+.circle svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 75px;
+}
+
+.circle .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+.other-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px; /* Reduce the gap between elements */
 }
 
 .other-skills p {
@@ -121,6 +164,8 @@ body {
     border-radius: 5px;
     border: 1px solid #000;
     transition: transform 0.3s;
+    flex: 1 1 auto; /* Allow elements to wrap naturally */
+    text-align: center;
 }
 
 .other-skills p:hover {
