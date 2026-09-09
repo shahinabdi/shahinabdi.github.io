@@ -1,0 +1,49 @@
+SHAHIN ABDI
+DevOps Engineer / Python Developer
+France · contact@shahinabdi.com
+https://www.linkedin.com/in/shahinabdi · https://github.com/shahinabdi
+
+PROFILE
+DevOps Engineer / Python Developer with 6+ years of experience across Python development, CI/CD, production engineering, scientific computing and infrastructure automation.
+
+EXPERIENCE
+
+SOCIÉTÉ GÉNÉRALE — Ingénieur DevOps
+Mars 2025 — Aujourd’hui
+- Migrated a Python platform from Python 3.8 to Python 3.12, reducing production incidents by approximately 40%.
+- Migrated CI/CD pipelines from Jenkins to GitHub Actions.
+- Modernized a five-year-old codebase through technical debt management, refactoring and quality improvements.
+- Introduced uv for Python package and environment management, reducing image creation time from 8 to 3 minutes (-62.5%).
+- Adopted Ruff for automated linting and formatting.
+- Improved secrets management and CI/CD workflow security practices.
+- Managed production and staging environments, monitoring, on-call and incident response.
+- Provisioned an additional UAT environment with Ansible and Terraform for documentation, testing and disaster recovery measurement.
+- Orchestrated Kubernetes clusters and integrated RabbitMQ in a microservices environment.
+
+INSTITUT D’ASTROPHYSIQUE SPATIALE — Développeur Python
+Juillet 2023 — Mars 2025
+- Optimized Python code for ESA’s PLATO mission, improving performance by 40%.
+- Implemented unit and integration testing, reducing bugs by 30%.
+- Integrated optimized code into the data processing pipeline, accelerating analysis by 25%.
+
+INSTITUT D’ASTROPHYSIQUE SPATIALE — Développeur Python
+Août 2021 — Juin 2023
+- Developed a Django database management platform, improving data processing efficiency by 35%.
+- Created an interface integrated with the backend.
+- Containerized the project with Docker and Docker Compose.
+
+LATMOS — Développeur Python / Fortran
+Mars 2020 — Août 2021
+- Optimized Python programs for atmospheric calculations, reducing computation time by 45%.
+- Managed and analyzed large atmospheric datasets with MongoDB and R.
+- Simulated terrestrial spectra across 111,766 spectra.
+
+EXPERTISE
+Python Platform Engineering & Modernization · DevOps & CI/CD · Production Engineering & Reliability · Software Quality & Developer Experience · Cloud & Infrastructure Engineering · Data Engineering & Scientific Computing
+
+TECHNOLOGIES
+Python · Go · Rust · Fortran · Django · Flask · GitHub Actions · Jenkins · GitLab CI/CD · Docker · Kubernetes · Terraform · Ansible · RabbitMQ · AWS · Linux · RHEL · Ruff · uv · PostgreSQL · MySQL · MongoDB · Airflow · Git
+
+EDUCATION
+IASchool – Groupe GEMA — Mastère Chef de projet Data et Intelligence Artificielle, RNCP niveau 7 — 2020–2022
+Observatoire de Paris-Meudon — M1 SUTS / M2 OSAE, Master en Astronomie et Astrophysique — 2017–2020
